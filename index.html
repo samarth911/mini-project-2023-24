@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Review Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload Your Media</h1>
+        <form enctype="multipart/form-data">
+            <input type="file" id="mediaInput" accept="video/*,image/*" />
+            <button id="submitMedia">Upload</button>
+            <button id="submitReview">Submit</button>
+        </form>
+    </div>
+    <div class="review">
+        <h2>Media Review:</h2>
+        <p id="mediaReview">Your media review will appear here.</p>
+    </div>
+     <div id="waitMessage" class="wait-message" style="display: none;">
+        Thank you, please wait...
+    </div>
+    <script src="media.js"></script
+</body>
+</html>
